@@ -10,7 +10,7 @@ function nextSlide() {
 }
 
 // Set slide pertama menjadi aktif saat halaman dimuat
-if (testimonials.length > 0) {
+if (testimonials.length > 0) { 
     testimonials[0].classList.add('active');
     setInterval(nextSlide, slideInterval);
 }
